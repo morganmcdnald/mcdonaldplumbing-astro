@@ -1,0 +1,101 @@
+:root {
+  --dark-blue: #0060b8;
+  --light-blue: #5ca4d4;
+  --dark-orange: #c14300;
+  --light-orange: #ff9a1a;
+  --background-colour: #fafafa;
+  --text-colour: #111111;
+}
+
+@font-face {
+  font-family: "UrbanistBold";
+  src: url("/fonts/Urbanist-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UrbanistExtraLight";
+  src: url("/fonts/Urbanist-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UrbanistLight";
+  src: url("/fonts/Urbanist-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UrbanistMedium";
+  src: url("/fonts/Urbanist-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UrbanistRegular";
+  src: url("/fonts/Urbanist-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "UrbanistSemiBold";
+  src: url("/fonts/Urbanist-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "UrbanistRegular", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: var(--background-colour);
+  color: var(--text-colour);
+  overflow-x: hidden;
+}
+body section {
+  scroll-margin-top: 100px;
+}
+body a {
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-family: "UrbanistSemiBold", serif;
+}
+body p {
+  margin: 1rem 0;
+}
+body ul {
+  list-style: none;
+}
+body ul li {
+  line-height: 2;
+}
+body h1,
+body h2,
+body h3,
+body h4 {
+  line-height: 1.2;
+  font-family: "UrbanistSemiBold", serif;
+}
+body .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+@media screen and (max-width: 450px) {
+  body .container {
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=global.css.map */
